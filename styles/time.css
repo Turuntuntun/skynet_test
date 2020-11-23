@@ -1,0 +1,58 @@
+.time
+{
+    width: 100%;
+    margin: 0 auto;
+    background-color: white;
+    border: 1px solid #E1E0E3;
+    padding-left: 15px;
+    box-sizing: border-box;
+}
+.time-title
+{
+    color:#82C12B;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.time-hr
+{
+    border:none;
+    height: 2px;
+}
+.time-elems-elem
+{
+    display: grid;
+    margin: 20px 0;
+}
+.time-elems-elem-price_month
+{
+    color: #4D575D;
+    font-weight: bold;
+}
+.time-elems-elem-price
+{
+    color: #586267;
+}
+.time-elems-elem-period
+{
+    color: #BDBDBD;
+}
+.time-elems-options
+{
+    display: grid;
+    grid-template-columns: 1fr;
+}
+.time-submit
+{
+    width: 97%;
+    background-color: #82C12B;
+    cursor: pointer;
+    margin-bottom: 10px;
+    text-align: center;
+    padding: 20px 0;
+}
+
+.time-submit-text
+{
+    color: white;
+}

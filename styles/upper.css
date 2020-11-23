@@ -1,0 +1,24 @@
+.block-title
+{
+    width: 100%;
+    background-color: white;
+    display: flex;
+    border: 1px solid #E1E0E3;
+    justify-content: space-between;
+    padding: 15px 10px;
+    margin-bottom: 25px;
+    box-sizing: border-box;
+}
+
+.block-title-back
+{
+    color: #82C12B;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
+}
+.block-title-value
+{
+    font-weight: bold;
+    font-size: 20px;
+}

@@ -8,8 +8,9 @@
 
 use classes\request;
 use classes\data;
-require '..\classes\request.php';
-require '..\classes\data.php';
+
+require '../classes/request.php';
+require '../classes/data.php';
 
 $request = new request();
 $data = $request->getData();

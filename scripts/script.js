@@ -18,7 +18,6 @@ class Main
             url: this.path,
             data: {id:id,type:type},
             success: function(data){
-                console.log(data);
                 Main.epilogRequest(data,type);
             }
         });
